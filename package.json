@@ -2,9 +2,9 @@
   "name": "truffles-web3",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Truffles anshul@truffles.one",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
