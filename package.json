@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "author": "Truffles anshul@truffles.one",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "main": "index.js",
   "repository": {
