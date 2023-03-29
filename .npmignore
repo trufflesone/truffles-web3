@@ -1,0 +1,23 @@
+# source
+**/*.ts
+*.ts
+config
+lib
+.env
+
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# configuration
+.prettierrc
+.eslintrc.js
+nest-cli.json
+nodemon-debug.json
+package-lock.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json
+webpack.config.js
+yarn.lock
+.idea
