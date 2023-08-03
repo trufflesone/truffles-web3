@@ -12,8 +12,8 @@ import {
   createClient,
   Web3Client,
 } from './web3-client.provider';
-import { HttpProviderBase } from 'web3-core-helpers';
 import { Web3Service } from './web3.service';
+import { Web3BaseProvider } from 'web3';
 
 @Global()
 @Module({
@@ -58,7 +58,7 @@ export class Web3CoreModule implements OnModuleDestroy {
         const client = clients.get(name);
 
         if (client) {
-          const provider = client.currentProvider as HttpProviderBase;
+          const provider = client.currentProvider as Web3BaseProvider;
           provider.disconnect();
         }
       };
